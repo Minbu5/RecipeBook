@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head.html '%}
+<body id="page-top">
+<!-- Navigation-->
+{% include 'navbar.html '%}
+<!-- Page Content-->
+<section class="resume-section" id="about">
+    <div class="resume-section-content">
+        <div class="resume-section-content d-none d-lg-block">
+            <h1 class="mb-0">
+                {{ category }}
+                <span class="text-primary">recipes</span>
+            </h1>
+            <hr>
+        </div>
+        {% for recipe in data: %}
+        {% if recipe['id']== num: %}
+        <h3 class="mb-0">{{ recipe['name'] }}</h3>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <div class="subheading mb-3">{{ recipe['description'] }}</div>
+                <p>{{ recipe['preparation'] }}</p>
+                {% for ingredient in recipe['ingredients']: %}
+                <ol>{{ ingredient }}</ol>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+</section>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head.html '%}
+<body id="page-top">
+<!-- Navigation-->
+{% include 'navbar.html '%}
+<!-- Page Content-->
+<section class="resume-section" id="about">
+    <div class="resume-section-content">
+        <div class="resume-section-content d-none d-lg-block">
+            <h1 class="mb-0">
+                {{ category }}
+                <span class="text-primary">recipes</span>
+            </h1>
+            <hr>
+        </div>
+        {% if category == 'all': %}
+        {% for recipe in data: %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <a class="nav-link js-scroll-trigger" href="{{ url_for('selected_recipe', category=recipe['category'],  num=recipe['id'])}}">
+                <h3 class="mb-0">{{ recipe['name'] }}</h3>
+                <p>{{ recipe['category'] }}</p>
+                <div class="subheading mb-3">{{ recipe['description'] }}</div></a>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if category == 'soups': %}
+        {% for recipe in data: %}
+        {% if recipe['category'] == 'soups': %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <a class="nav-link js-scroll-trigger" href="{{ url_for('selected_recipe', category=recipe['category'],  num=recipe['id'])}}">
+                <h3 class="mb-0">{{ recipe['name'] }}</h3>
+                <p>{{ recipe['category'] }}</p>
+                <div class="subheading mb-3">{{ recipe['description'] }}</div></a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+
+        {% if category == 'main course': %}
+        {% for recipe in data: %}
+        {% if recipe['category'] == 'main course': %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <a class="nav-link js-scroll-trigger" href="{{ url_for('selected_recipe', category=recipe['category'],  num=recipe['id'])}}">
+                <h3 class="mb-0">{{ recipe['name'] }}</h3>
+                <p>{{ recipe['category'] }}</p>
+                <div class="subheading mb-3">{{ recipe['description'] }}</div></a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+        {% if category == 'desserts': %}
+        {% for recipe in data: %}
+        {% if recipe['category'] == 'desserts': %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <a class="nav-link js-scroll-trigger" href="{{ url_for('selected_recipe', category=recipe['category'],  num=recipe['id'])}}">
+                <h3 class="mb-0">{{ recipe['name'] }}</h3>
+                <p>{{ recipe['category'] }}</p>
+                <div class="subheading mb-3">{{ recipe['description'] }}</div></a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+
+        {% if category == 'beverages': %}
+        {% for recipe in data: %}
+        {% if recipe['category'] == 'beverages': %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <a class="nav-link js-scroll-trigger" href="{{ url_for('selected_recipe', category=recipe['category'],  num=recipe['id'])}}">
+                <h3 class="mb-0">{{ recipe['name'] }}</h3>
+                <p>{{ recipe['category'] }}</p>
+                <div class="subheading mb-3">{{ recipe['description'] }}</div></a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+</section>
+</body>
+</html>

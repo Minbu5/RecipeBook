@@ -4,7 +4,7 @@
         "category": "soups",
         "name": "Bread, egg and garlic soup",
         "description": "This is comfort food at its finest. It's a warm, simple and easy dish that can be enjoyed for breakfast, lunch or dinner.",
-        "ingridients": [
+        "ingredients": [
             "1 tablespoon olive oil",
             "4 garlic cloves, pressed (or finely chopped)",
             "1/8 teaspoon hot pepper flakes",
@@ -21,7 +21,7 @@
         "category": "soups",
         "name": "Lithuanian Šaltibarščiai (Cold Beet Soup)",
         "description": "This Lithuanian family recipe for šaltibarščiai is from the old country. It makes an awesome summer soup! Serve with warm Yukon Gold potatoes.",
-        "ingridients": [
+        "ingredients": [
             "4 large eggs",
             "1 quart buttermilk",
             "1 pound beets, peeled and shredded",
@@ -36,7 +36,7 @@
         "category": "soups",
         "name": "Beef Soup (Kharcho)",
         "description": "Beef Soup Kharcho (pronounced harcho), is a hearty beef soup in tomato broth with a wonderful blend of spices and plenty of fresh herbs.",
-        "ingridients": [
+        "ingredients": [
             "1.3 kg beef stew meat",
             "3 table spoon salt (I used fine sea salt)",
             "4 table spoon light olive oil (or any cooking oil)",
@@ -57,10 +57,10 @@
     },
     {
         "id": 4,
-        "category": "Main Corses",
+        "category": "main course",
         "name": "Lithuanian Potato-Meat Dumplings (Cepelinai)",
         "description": "Lithuanian potato-meat dumplings are known as zeppelins or cepelinai because of their shape. These hearty and rich dumplings take some time to make, but they are well worth the effort.",
-        "ingridients": [
+        "ingredients": [
             "1 pound ground pork, or an equal mix of pork, beef, and veal",
             "1 medium onion, peeled and finely chopped",
             "1 1/2 teaspoons kosher salt",
@@ -82,10 +82,10 @@
     },
     {
         "id": 5,
-        "category": "Main Corses",
+        "category": "main course",
         "name": "Chebureki",
         "description": "Chebureki are a fried turnover, filled with ground beef and onions. They also taste great with ground lamb. Chebureki are a classic Crimean, Caucasus and Turkic street food snack, popular across Russia and the former Soviet Union.",
-        "ingridients": [
+        "ingredients": [
             "Ground Beef",
             "2 small onions",
             "Salt and Pepper",
@@ -96,12 +96,12 @@
     },
     {
         "id": 6,
-        "category": "Main Corses",
+        "category": "main course",
         "name": "Spicy Honey Garlic Wings",
         "description": "Spicy wings! An all-time favourite ingredient combination, which is honey and garlic, is combined with spicy Korean gochujang and salty soy sauce.",
-        "ingridients": [
+        "ingredients": [
             "2 pounds of chicken wings.",
-            "ow-sodium soy sauce",
+            "Low-sodium soy sauce",
             "Vegetable Oil",
             "Fresh garlic",
             "Honey sweetens the sauce",
@@ -111,10 +111,10 @@
     },
     {
         "id": 7,
-        "category": "Desserts",
+        "category": "desserts",
         "name": "Homemade Vanilla Ice Cream",
         "description": "I scream, you scream, we all scream for HOMEMADE ice cream! This sweet treat is rich, creamy, packed with vanilla flavor, and insanely easy to make.",
-        "ingridients": [
+        "ingredients": [
             "Heavy cream ",
             "Whole milk",
             "Cane sugar",
@@ -125,10 +125,10 @@
     },
     {
         "id": 8,
-        "category": "Desserts",
+        "category": "desserts",
         "name": "Crispy Cheese Donuts",
         "description": "Crispy Cheese Donuts are a tasty after-school snack. These cheesy rings are chewy, crispy, and easy to make with cheddar cheese and quinoa.",
-        "ingridients": [
+        "ingredients": [
             "1 cup finely shredded cheddar cheese",
             " 1/4 cup cooked quinoa",
             "1 tablespoon flour",
@@ -139,10 +139,10 @@
     },
     {
         "id": 9,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Margarita",
         "description": "Margaritas are a classic drink we all know and love. It’s definitely the favorite cocktail around here.",
-        "ingridients": [
+        "ingredients": [
             "Tequila",
             "Orange liqueur",
             "Lime Juice",
@@ -150,14 +150,14 @@
             "Agave Syrup",
             "Fresh Fruit"
         ],
-        "preparation": "3 ingredients, and an easy ratio to remember:(2:1:1) 2 parts Tequila, 1 part lime juice, 1 part Orange liqueur Other ingridients are optional"
+        "preparation": "3 ingredients, and an easy ratio to remember:(2:1:1) 2 parts Tequila, 1 part lime juice, 1 part Orange liqueur Other ingredients are optional"
     },
     {
         "id": 10,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Strawberry Peach Mojito",
         "description": "This easy mocktail recipe features zesty lime, fresh mint, Tropicana Strawberry Peach Paradise Drink, and a delightful garnish, making the perfect non-alcoholic beverage!",
-        "ingridients": [
+        "ingredients": [
             "1/2 lime, juiced",
             "5 fresh mint leaves, plus fresh mint springs, for garnish",
             "1/4 cup Tropicana® Strawberry Peach Paradise Drink",
@@ -168,10 +168,10 @@
     },
     {
         "id": 11,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Mojito",
         "description": "When life gives you mint leaves, what do you make? This mint mojito recipe!",
-        "ingridients": [
+        "ingredients": [
             "Fresh mint",
             "White rum",
             "Fresh lime juice",
@@ -183,10 +183,10 @@
     },
     {
         "id": 12,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Classic Mimosa Recipe",
         "description": "Learn how to make mimosas at home with this simple recipe! These easy 2-ingredient cocktails are guaranteed to be the star of your next brunch.",
-        "ingridients": [
+        "ingredients": [
             "dry sparkling wine",
             "orange juice"
         ],
@@ -194,10 +194,10 @@
     },
     {
         "id": 13,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Strawberry Pistachio Smoothie",
         "description": "This variation is inspired by a pistachio-mint smoothie we had at the Ojai Valley Inn. The pistachios add richness, and the peppermint makes this strawberry smoothie extra refreshing.",
-        "ingridients": [
+        "ingredients": [
             "1 cup non-fat plain kefir",
             "1 heaping cup frozen strawberries",
             "2 Tbsp shelled pistachios",
@@ -210,10 +210,10 @@
     },
     {
         "id": 14,
-        "category": "Beverages",
+        "category": "beverages",
         "name": "Bloody Mary",
         "description": "Most famous vodka cocktail ever.",
-        "ingridients": [
+        "ingredients": [
             "vodka",
             "tomamto juice",
             "lemmon juice",
@@ -227,4 +227,3 @@
     }
 ]
 
-# https://api.npoint.io/3e890a99abf7eb2ad0ae
